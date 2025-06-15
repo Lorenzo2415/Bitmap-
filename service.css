@@ -1,0 +1,174 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;}
+
+body { background-color: #f9f9ff;}
+
+header {background-image: url(banner.jpg.webp);
+width: 100vw;
+height: 40vh;
+display: flex;
+flex-direction: column;
+align-items: center;}
+
+nav {background: rgba(0, 0, 0, 0.5);
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 80px;
+font-weight: 500;
+width: 100%;}
+
+header a {text-decoration: none;
+font-size: 12px;}
+
+#Home {display: flex;
+justify-content: space-between;
+width: 600px;
+margin-left: 28%;}
+
+a.link1 {color: #ffffff; transition: 0.2s;}
+a.link1:hover {color: #fcdc00;}
+
+#img {margin-left: 7%;}
+
+#svg {margin-right: 10%;}
+
+header svg {fill: white;
+width: 12px;
+height: 12px;}
+
+#blocao {display: inline-block;
+width: 555px;
+height: 236px;
+background-color: transparent;
+margin-top: 11vh;
+color: white;
+align-items: center;
+text-align: center;}
+
+.blocotxt {font-size: 48px;
+font-family: "Poppins", sans-serif;
+margin-top: 45px;
+font-weight: 600;}
+.blocotxt2 {font-size: 14px;
+font-family: "Poppins", sans-serif;
+margin-top: 22px;
+padding: 10%;
+padding-top: 1%;}
+
+#best { width: 90%;;
+height: 60vh;
+margin: auto;
+flex-wrap: wrap;
+display: flex;
+justify-content: space-between;
+margin-top: 10%;
+padding: 4%;
+padding-bottom: 10%;
+background-color:#f9f9ff;}
+
+.best1 {width: 27%;
+height: 250px;
+font-size: 14px;
+background-color:#f9f9ff;
+justify-content: space-between;
+text-align: center;
+padding: 2%;
+transition: 0.5s;
+outline: solid 1px #eeeeee;
+padding: 40px;
+color: #797979;
+font-weight: 200;}
+
+.oo {font-size: 21px;
+font-weight: 600;
+color: black;}
+
+
+.best1:hover {width: 27%;
+height: 250px;
+font-size: 14px;
+background-color:#fcdc00;
+justify-content: space-between;
+text-align: center;}
+
+.follow {display: inline-block;
+height: 40px;
+width: 11.9vw;
+font-size: 14px;
+background-color: #fcdc00;
+padding-left: 1%;
+padding-top: 0.5%;
+font-weight: 600;
+margin-top: 3%;}
+
+#ins { width: 85.1%;;
+height: 10vh;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+margin-top: 5%;
+background-color: #f9f9ff;}
+
+#ins>div {height: 40%;
+transition: 0.5s;}
+
+#ins>div:hover {height: 50%;}
+
+#final { width: 100%;;
+height: 50vh;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+margin-top: 11.6%;
+justify-content: center;
+background-color: rgb(4, 9, 30);
+color: #777777;}
+
+.letter1 {position: relative;
+top: 30%;
+right: 130%;
+font-size: 18px;
+color:#f9f9ff;}
+
+.lan { position: relative;
+top: 40%;
+right: 130%;}
+.colorlib {text-decoration: none;}
+.lan2 { position: relative;
+top: 50%;
+right: 130%;}
+
+.letter2 {position: relative;
+top: 3.6%;
+right: 8%;
+font-size: 18px;
+color:#f9f9ff;}
+
+.lan3 { position: relative;
+top: 13.6%;
+right: 8%;}
+
+.letter3 { position: relative;
+bottom: 12%;
+left: 120%;
+font-size: 18px;
+color:#f9f9ff;}
+
+.lan4 {position: relative;
+bottom: 2%;
+left: 120%;}
+
+.logos { position: relative;
+left: 120%;
+display: flex;}
+
+.email {height: 5vh;
+width: 500px;
+position: relative;
+top: 22%;
+right: 8%;}
+
+#logos li {list-style: none;}
